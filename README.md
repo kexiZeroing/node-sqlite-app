@@ -7,8 +7,12 @@ Beginner friendly tutorial to learn how to interact with SQLite databases from a
 - `cli.sh`: run sqlite from the command line.
 
 ## SQLite
+SQLite is a software library that provides a relational database management system. A few well-known facts to get started:
 
-SQLite is a software library that provides a relational database management system. If you have a Mac, sqlite3 should be available on there.
+- SQLite is the most common DBMS in the world, shipped with all popular operating systems.
+- SQLite is serverless.
+- For developers, SQLite is embedded directly into the app.
+- For everyone else, there is a convenient database console (REPL), provided as a single file (`sqlite3.exe` on Windows, `sqlite3` on Linux / macOS).
 
 ```sh
 which sqlite3
