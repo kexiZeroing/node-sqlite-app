@@ -28,6 +28,14 @@ man sqlite3
 
 [better-sqlite3](https://github.com/WiseLibs/better-sqlite3) is the fastest and simplest library for SQLite3 in Node.js. It is much faster than node-sqlite3 in most cases.
 
+### Some fun facts about SQLite
+1. SQLite is the most deployed and most used database. It is likely used more than all other database engines combined.
+2. They don’t allow outside contributions. You cannot just send a pull request and hope the patch will be accepted.
+3. There are over 600 lines of test code for every line of code in SQLite. Tests cover 100% of branches in the library. The test suite is extremely diverse, including fuzz tests, boundary value tests, regression tests, and tests that simulate operating system crashes, power losses, I/O errors, and out-of-memory errors.
+4. It’s an interesting business model. They generate revenue through licenses, paid support, maintenance services, consortium membership, and commercial extensions.
+5. All the of the source code files come with a blessing.
+6. SQLite’s author D. Richard Hipp (DRH) did not find existing version control systems suitable. So he wrote his own called Fossil. Fossil is powered by SQLite, of course.
+
 ## Drizzle ORM
 - Drizzle is a modern TypeScript ORM.
 - Drizzle supports every PostgreSQL, MySQL and SQLite databases, including serverless ones.
